@@ -1,0 +1,56 @@
+# Richard Akinmade — Portfolio
+
+Personal portfolio site for Richard Akinmade, a Full-Stack & Cross-Platform Developer.
+Built with SvelteKit, Svelte 5 (runes), and TypeScript.
+
+**Live site:** _http://richardakinmade.onrender.com_
+
+## Features
+
+- Home, About, Projects, Experience, and Contact pages
+- Searchable, tag-filterable project listing
+- Contact form powered by [EmailJS](https://www.emailjs.com/) — no backend required for form submission
+- Dark mode by default, with a persisted light-mode toggle
+- Fully responsive, including full-width mobile nav tap targets
+
+## Tech stack
+
+- [SvelteKit](https://svelte.dev/docs/kit) with `@sveltejs/adapter-node`
+- Svelte 5 runes (`$state`, `$derived`, `$props`, `$effect`)
+- TypeScript
+- [EmailJS](https://www.emailjs.com/) for the contact form
+
+## Local development
+
+```sh
+npm install
+cp .env.example .env   # then fill in your real EmailJS keys — see EMAIL_SETUP.md
+npm run dev
+```
+
+Visit `http://localhost:5173`.
+
+## Building & running for production
+
+```sh
+npm run build
+npm start
+```
+
+`npm start` runs the built Node server (`build/index.js`) — this is what a host like
+Render runs in production.
+
+## Environment variables
+
+See `.env.example`. All three are required for the contact form to send email:
+
+- `PUBLIC_EMAILJS_SERVICE_ID`
+- `PUBLIC_EMAILJS_TEMPLATE_ID`
+- `PUBLIC_EMAILJS_PUBLIC_KEY`
+
+Setup instructions: [`EMAIL_SETUP.md`](./EMAIL_SETUP.md)
+
+## Deployment
+
+This project deploys to [Render](https://render.com) as a Node Web Service, configured
+via `render.yaml`. See the deployment guide for step-by-step instructions.
