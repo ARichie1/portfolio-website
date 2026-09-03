@@ -73,7 +73,7 @@
 		aria-label="Back to top">
 		<svg viewBox="0 0 24 24" class="icon chevron"
 			fill="none" stroke-linejoin="round">
-			<polyline points="6 9 12 15 18 9" />
+			<polyline points="18 15 12 9 6 15" />
 		</svg>
 	</button>
 	<Footer />
