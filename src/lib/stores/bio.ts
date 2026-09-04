@@ -3,13 +3,13 @@ export const lastName = "Akinmade"
 export const fullName = firstName + " " +lastName
 
 export const aboutMini = {
-    intro: `I'm ${fullName}, a Full-Stack Developer who ships real product work for client teams, from restructuring an existing codebase's architecture to implementing the pages that run on top of it. Recent work spans a real-time multiplayer web app rebuilt for an NDA client, and technical architecture for a counterfeit-verification platform.`,
+    intro: `I'm ${fullName}, a Full-Stack Developer who ships real product work for clients, from restructuring an existing codebase's architecture to implementing the pages that run on top of it. Recent work spans a real-time multiplayer web app rebuilt for an NDA client, and technical architecture for a counterfeit-verification platform.`,
     beyond: "Outside client work, I build and maintain my own tools, including a CLI file-sync utility for Linux/Termux and a real-time multiplayer game engine, because I like owning a problem end to end, not just the parts that are visible.",
     end: "With a background in Mathematical Sciences, I bring analytical thinking to system design, and a hands-on, get-it-working discipline from earlier years in technical field support and fabrication."
 }
 
 export const aboutFull = {
-    intro: `I'm ${fullName}, a Full-Stack Developer with experience building and restructuring production web applications for client teams, alongside independent architecture and technical-documentation work. I'm comfortable owning a codebase end to end, from system design through implementation.`,
+    intro: `I'm ${fullName}, a Full-Stack Developer with experience building and restructuring production web applications for clients, alongside independent architecture and technical-documentation work. I'm comfortable owning a codebase end to end, from system design through implementation.`,
     software: "My most recent client work includes rebuilding a real-time multiplayer game web app as part of a distributed team of five, reviewing and restructuring an existing, buggy frontend architecture, then implementing the redesigned authentication, leaderboard, payments, and coin-store flows. Before that, I led the technical architecture for a counterfeit-verification platform, authoring the full technical specification: database schema, 30+ API endpoints, a security model, and smart-contract design, built on TypeScript, Node.js, Svelte/SvelteKit, React, and PostgreSQL.",
     web3: "That counterfeit-verification work also gave me hands-on experience with Web3 fundamentals, smart-contract architecture, Solidity, and decentralized verification design, which I continue to build on.",
     hardware: "Before moving fully into software, I worked in technical field support and led a team in arc welding and fabrication. That background shaped a practical, disciplined approach to problem-solving that still shows up in how I debug and ship today.",
