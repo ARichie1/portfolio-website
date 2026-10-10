@@ -3,6 +3,19 @@ import type { Project } from './types';
 export const projects: Project[] = [
     {
         id: 0,
+        title: "Dead Injured Alive (DIA)",
+        description: "Full-stack web game with real-time-flow and smooth gameplay, built end to end: React (v1) and sveltekit (v2) frontend, Node.js/Express backend, MongoDB for persistence, Redis for caching and Zod for runtime schema validation.",
+        tools: ["Sveltekit", "Node.js", "Express", "MongoDB", "Redis", "Zod", "Mocha", "OAuth2"],
+        image: "dia-agents-image.png",
+        code: "",
+        demo: "https://dia-agents.onrender.com/",
+        viewCode: false,
+        viewDemo: true,
+        inDevelopement: true,
+        featured: true
+    },
+    {
+        id: 1,
         title: "bip39-validator",
         description: "Published npm package for validating BIP-39 mnemonic seed phrases — wordlist checking and checksum validation for wallet/crypto tooling.",
         tools: ["TypeScript", "npm", "Web3"],
@@ -15,7 +28,7 @@ export const projects: Project[] = [
         featured: true
     },
     {
-        id: 1,
+        id: 2,
         title: "bip39-validator App",
         description: "Web application built on top of the bip39-validator package, providing a usable interface for validating BIP-39 mnemonic phrases.",
         tools: ["TypeScript", "Web3"],
@@ -24,19 +37,6 @@ export const projects: Project[] = [
         demo: "https://bip39-validator-app.vercel.app/",
         viewCode: true,
         viewDemo: true,
-        inDevelopement: false,
-        featured: true
-    },
-    {
-        id: 2,
-        title: "Dead Injured Alive (DIA)",
-        description: "Full-stack web game with real-time-feeling logic gameplay, built end to end: React (v1) and sveltekit (v2) frontend, Node.js/Express backend, MongoDB for persistence, Redis for caching and Zod for runtime schema validation.",
-        tools: ["React", "Svelte", "Sveltekit", "Node.js", "Express", "MongoDB", "Redis", "Zod", "Mocha"],
-        image: "phone.jpg",
-        code: "https://github.com/ARichie1/dead_injured_alive_game_basics",
-        demo: "",
-        viewCode: true,
-        viewDemo: false,
         inDevelopement: false,
         featured: true
     },
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     },
     {
         id: 4,
-        title: "Multiplayer Game Engine",
+        title: "Custom Multiplayer Game Engine",
         description: "Real-time multiplayer platform with matchmaking, queue management, and reactive state architecture spanning player, game, match, and dice stores with clear service boundaries.",
         tools: ["TypeScript", "SvelteKit", "Node.js", "Socket.io", "MongoDB"],
         image: "team.jpg",
@@ -64,14 +64,40 @@ export const projects: Project[] = [
         viewCode: false,
         viewDemo: false,
         inDevelopement: true,
-        featured: false
+        featured: true
     },
     {
         id: 5,
+        title: "NFT Art Generator",
+        description: "An Lightweight Web App That Allows You Create Nft Art or Art Collection By Merging Pngs, With The Ability To Download The Art Collection As A Zip File.",
+        tools: ["JavaScript", "WebAPIs", "HTML5 Canvas", "CSS3"],
+        image: "nft-art-generator-image.png",
+        code: "https://github.com/ARichie1/nft-art-generator",
+        demo: "https://arichie1.github.io/nft-art-generator/",
+        viewCode: true,
+        viewDemo: true,
+        inDevelopement: false,
+        featured: true
+    },
+    {
+        id: 6,
+        title: "Career Finder - Legacy Project",
+        description: "A Career Discovery App With A 30 Round Personality Assessment/Quiz That Generates A Career Result Based On The User's Answers.",
+        tools: ["JavaScript", "Ajax","WebAPIs", "HTML5 Canvas", "CSS3"],
+        image: "career-finder-image.png",
+        code: "https://github.com/ARichie1/ARichie1.github.io/tree/master/career-finder",
+        demo: "https://arichie1.github.io/career-finder/",
+        viewCode: true,
+        viewDemo: true,
+        inDevelopement: false,
+        featured: false
+    },
+    {
+        id: 7,
         title: "Eigen Matrix — Task Management App",
         description: "Task management application built with Svelte, covering task/project organization and state management in a clean component architecture.",
         tools: ["Svelte", "SvelteKit"],
-        image: "phone.jpg",
+        image: "eigen-matrix-task-manager-image.png",
         code: "https://github.com/ARichie1/svelte-task-management-app",
         demo: "",
         viewCode: true,
@@ -80,7 +106,7 @@ export const projects: Project[] = [
         featured: false
     },
     {
-        id: 6,
+        id: 8,
         title: "Game Web Application",
         description: "Real-time multiplayer game platform for an NDA client — rebuilt from an existing buggy codebase as part of a distributed 5-person team. Restructured the frontend architecture and implemented authentication, leaderboard, payments, and coin-store flows.",
         tools: ["SvelteKit", "TypeScript", "Git/GitHub"],

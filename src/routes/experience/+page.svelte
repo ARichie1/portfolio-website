@@ -50,7 +50,7 @@
 
 	.job {
 		padding: 1.5rem;
-		border-radius: var(--radius-lg);
+		border-radius: var(--radius-sm);
 	}
 
 	.job-header {

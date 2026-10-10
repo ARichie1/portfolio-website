@@ -12,8 +12,8 @@
 
 	// Home page shows only featured projects, capped at 4.
 	// Falls back to the first 4 projects if fewer than 4 are marked featured.
-	const featuredProjects = projects.filter((p) => p.featured).slice(0, 4);
-	const homeProjects = featuredProjects.length > 0 ? featuredProjects : projects.slice(0, 4);
+	const featuredProjects = projects.filter((p) => p.featured).slice(0, 6);
+	const homeProjects = featuredProjects.length > 0 ? featuredProjects : projects.slice(0, 6);
 </script>
 
 <div class="main-page">
@@ -26,7 +26,7 @@
 		</h1>
 
 		<p class="hero-subtitle">
-			Full-Stack & Cross-Platform Developer building robust, scalable,
+			Full-Stack Developer building robust, scalable,
 			and secure frontend & backend systems.
 		</p>
 
