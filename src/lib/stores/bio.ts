@@ -50,7 +50,10 @@ export const experience = [
     org: "ECKIG Global Services Limited",
     dates: "May 2022 – Nov 2022",
     points: [
-      "Formal experience combining web-development and IT-support responsibilities."
+      "Set up company web hosting and handled basic cPanel administration; configured staff email accounts, distributed login credentials, and connected accounts to Thunderbird and Outlook.",
+      "Developed a custom WordPress theme and integrated website contact forms with company email to support customer enquiries.",
+      "Optimized website pages and posts, repaired broken links, and configured on-page SEO using Rank Math.",
+      "Resolved a Google Analytics 4 (GA4) tracking issue and provided technical support across the company’s website and email systems."
     ]
   },
   {
